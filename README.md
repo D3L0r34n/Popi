@@ -16,6 +16,6 @@ You can contribute in the following things:
  Email me popis-developer@protonmail.com.
  
  
-*sometimes if you allow mother or/and father or/and pet after the message generating wordlist, script get killed.
-*I think it's because the wordlist got too large
-*I'm working on it
+*sometimes if you allow mother or/and father or/and pet after the message generating wordlist, script get killed*
+*I think it's because the wordlist got too large*
+*I'm working on it*
