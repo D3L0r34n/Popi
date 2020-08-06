@@ -47,8 +47,7 @@ options = ['-h', '--help', '-s', '--size', '-v', '--variables',
         '-l', '--lenght', '-lim', '--limit', '--only', '--except']
 
 exemples = ['Napoleon Bonaparte 15 08 1769', 'Elizaberti II 21 04 1926',
-        'Jesus Christ 00 00 9867', 'Stan Lee 28 12 1922', 'Grazzy Garcia 17 08 2000',
-        ]
+        'Jesus Christ 00 00 9867', 'Stan Lee 28 12 1922', 'Grazzy Garcia 17 08 2000']
 
 def banner():
     b = '''
