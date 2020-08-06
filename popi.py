@@ -9,7 +9,7 @@
 
 # improve check_only_except (make just 1 loop)
 # create [--for-all-only v1, v2, ...] [--for-all-except v1, v2, ...]
-#     just for mother father and property
+#     just for mother father and pet
 #     and improve the operation of --only/except
 
 # is 'options' variable necessary?
