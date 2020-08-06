@@ -1,7 +1,7 @@
 # Popi
 Permutation Of Personal Information (wordlist creator).
 
-This is just a small project to improve my string skills.
+This is just a small project to improve my string/list skills.
 
 The program is not for more general wordlists, it's recommended to use it only if you want a wordlist that contains abbreviations and small parts of the information passed on.
 
