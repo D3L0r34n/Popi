@@ -60,6 +60,7 @@ def banner():
                     |_|         \033[05mv.1.0\033[25m
     Permutation Of Personal information (Software)
     \033[1;37m
+    [*] python3 popi.py -h for help screen
     [*] If you don't know day month or year put 00 in place
     [*] If you dom't know surname put the same as name '''
     print(b)
