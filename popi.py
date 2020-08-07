@@ -279,7 +279,6 @@ def main():
             print('\n[!!] You have to pass variables for only argument')
         only = [i for i in only if i not in options]
         args = [i for i in args if i not in only]
-        print(only)
 
     if '--except' in args:
         try:
@@ -288,7 +287,6 @@ def main():
             print('\n[!!] You have to pass variables for except argument')
         except_ = [i for i in except_ if i not in options]
         args = [i for i in args if i not in except_]
-        print(except_)
 
     for i in args[1:]:
         if i not in options:
