@@ -317,7 +317,7 @@ def main():
                 m.extend(i for j in meth if j not in except_ for i in j)
         elif i=='Pet\'s':
             m.extend(i for i in [name, day, month, year])
-            m.extend(meth[0], meth[5], meth[6]) # D_y n_n N_n
+            m.extend(i for i in [meth[0], meth[5], meth[6]]) # D_y n_n N_n
         else:
             m.extend(i for i in [name, s_name, day, month, year])
             m.extend(i for i in [meth[0], meth[5], meth[6], meth[7], meth[8]]) # D_y n_n N_n s_n S_n
