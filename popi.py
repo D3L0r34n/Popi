@@ -262,7 +262,6 @@ def main():
             sys.exit()
         args.remove(str(x))
 
-        print(check)
     if any(i in ('-m', '--mother') for i in args):
         familly.append('Mother\'s')
 
@@ -335,13 +334,9 @@ def main():
     pList = set(pList)
 
     # shuffle and limits the list
-    if not x:
+    if not x or x>len(pList):
         x = len(pList)
-    if x<=len(pList):
-        pList = random.sample(pList, x)
-    else:
-        pList = random.sample(pList, len(pList))
-
+    pList = random.sample(pList, x)
 
     # write output to file if -s argument were not passed
     if not size:
