@@ -18,4 +18,4 @@ You can contribute in the following things:
 *I think it's because the wordlist got too large*
 *I'm working on it*
 
-*--sorry for some bugs in the code, I have no time to fix
+-*sorry for some bugs in the code, I have no time to fix*
